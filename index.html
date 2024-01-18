@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d9f04e6df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>V</span>inay</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>  
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>  
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEBSITE DEVELOPER</p>
+                <h1>WHERE CREATIVITY<BR>MEETS<SPAN> CODE ...</SPAN></h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMAGES/BACKGROUND _IMG.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p id="para">HELLO , VINAY HERE I AM A WEBSITE DEVELOPER , DEDICATED TO THE ART OF TRANSFORMING IMAGINATIVE CONCEPTS INTO IMMERSIVE DIGITAL EXPERIENCES. <br><br>MY JOURNEY IS A TESTAMENT TO THE FUSION OF CREATIVITY AND TECHNICAL PROWESS, WHERE EACH LINE OF CODE WEAVES A NARRATIVE OF INNOVATION. I THRIVE ON THE INTRICATE DANCE BETWEEN DESIGN AESTHETICS AND SEAMLESS FUNCTIONALITY, ENSURING THAT EVERY PROJECT IS A UNIQUE AND IMPACTFUL CREATION. <br><br>BEYOND THE SCREEN, I AM A PROBLEM SOLVER , SEEKING NEW CHALLENGES THAT ACT AS STEPPING STONES FOR PERSONAL AND PROFESSIONAL GROWTH. I APPROACH EACH ENDEAVOR WITH A COMMITMENT TO EXCELLENCE, A HUNGER FOR KNOWLEDGE, AND AN UNWAVERING PASSION FOR CRAFTING SOLUTIONS THAT TRANSCEND EXPECTATIONS. <BR><br>LET'S COLLABORATE TO TURN YOUR DIGITAL ASPIRATIONS INTO A REALITY, WHERE EVERY PIXEL TELLS A STORY OF INNOVATION AND USER-CENTRIC DESIGN.. <br></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links" onclick="opentab('experience')">SOFT SKILLS</p>
+                        <p class="tab-links"onclick="opentab('education')">PROJECTS</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>DESIGNING AND DEVELOPING WEBSITES BY CODING</li>
+                            <li><span>DATABASE/FRAMEWORKS</span><br>REACT.JS , NODE.JS , MYSQL , MONGO_DB , NOSQL</li>
+                            <li><span>PROGRAMMING</span><br>C , JAVA , PYTHON ,HTML , CSS , JAVASCRIPT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>LEADERSHIP</span><br>A VISIONARY CAPTAIN , IGNITING COLLECTIVE BRILLIANCE</li>
+                            <li><span>CRITICAL THINKING</span><br>SKILLFUL IN DISSECTING CHALLENGES , SAGE ANALYST WITH A STRATEGIC MIND</li>
+                            <li><span>COMMUNICATION</span><br>NETWORKING , CLIENT-FACING SKILLS , INFECTIOUS POSITIVE APPROACH</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MY PERSONAL WEBSITE</span><br>MY INAUGRAL WEB PROJECT - A SHOWCASE OF MY SKILLS, INVITING COLLABORATION AND OPPORTUNITIES.</li>
+                            <li><span>A PHOTOGRAPHY WEBSITE</span><br>UNVEILING SOON - ( A PHOTOGRAPHER'S PORTFOLIO WEBSITE ) MY LATEST CREATION IN PROGRESS</li>
+                            <li><span>AN E-COMMERCE WEBSITE</span><br>UNVEILING SOON - ( WEBSITE FOR A CLOTHING STORE ) WATCH THIS SPACE FOR THE UPCOMING SHOWCASE OF INNOVATION AND SKILL</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Website Developement</h2><br>
+                    <p>TRANSFORMING VISIONS INTO REALITY, WE SPECIALIZE IN CREATING BESPOKE WEBSITES. <br><br>OUR CUSTOM WEB DEVELOPMENT SERVICE ENSURES THAT EVERY ELEMENT IS TAILORED TO ALIGN WITH YOUR BRAND, FUNCTIONALITY NEEDS, AND USER EXPERIENCE GOALS.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-infinity"></i>
+                    <h2>Responsive Design , Optimizations</h2><br>
+                    <p>CRAFTING WEBSITES THAT SHINE ON EVERY SCREEN. <br><br>OUR EXPERTISE IN RESPONSIVE DESIGN GUARANTEES THAT YOUR SITE NOT ONLY LOOKS FANTASTIC BUT ALSO PROVIDES A FLAWLESS USER EXPERIENCE, WHETHER ACCESSED FROM A DESKTOP, TABLET, OR MOBILE DEVICE.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Programming Solutions</h2><br>
+                    <p>WHERE VISION MEETS PRECISION. TRANSFORMING ASPIRATIONS INTO POWERFUL DIGITAL SOLUTIONS. <br><br>OUR SERVICES ENCOMPASS A SPECTRUM OF PROGRAMMING NEEDS, ENSURING SEAMLESS FUNCTIONALITY, OPTIMAL PERFORMANCE FOR YOUR SUCCESS IN THE DIGITAL REALM."</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titles">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i><a href="mailto:vinayjaynn@gmail.com">vinayjaynn@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone-volume"></i> <a href="tel:+917418968142">+91 7418968142</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100084222084191&mibextid=2JQ9oc" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_.vinay_jain._?igsh=MWdlZ3B2NTV3bnc2MA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vinay-jain-750862253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="ENTER YOUR NAME" required>
+                        <input type="e-mail" name="E-Mail id" placeholder="ENTER YOUR E-MAIL ID" required>
+                        <textarea name="Message" rows="5" placeholder="SHARE YOUR THOUGHTS..."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>COPYRIGHTS &copy; VINAY.</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+
+
+
+    </script>
+
+
+
+
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzQUYlMqbzUXDygPOdiFy1Ki1UoYQgzD2hBY162umowM-a-VDAZKX7BD1JPUB3TijjW/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
